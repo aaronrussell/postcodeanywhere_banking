@@ -12,16 +12,16 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "postcodeanywhere-banking"
-  gem.homepage = "http://github.com/aaronrussell/postcodeanywhere-banking"
+  gem.name = "postcodeanywhere_banking"
+  gem.homepage = "http://github.com/aaronrussell/postcodeanywhere_banking"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A very simple wrapper for the PostCodeAnywhere Bank Account Validation API."
+  gem.description = "A very simple wrapper for the PostCodeAnywhere Bank Account Validation API."
   gem.email = "aaron@gc4.co.uk"
   gem.authors = ["Aaron Russell"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+  gem.add_runtime_dependency 'httparty'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
