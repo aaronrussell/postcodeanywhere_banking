@@ -32,7 +32,7 @@ module PostcodeAnywhere
   
   class BankAccountValidationResponse
     
-    attr_reader :is_correct, :is_direct_debit_capable, :status_nformation, :corrected_sort_code, :corrected_account_number,
+    attr_reader :is_correct, :is_direct_debit_capable, :status_information, :corrected_sort_code, :corrected_account_number,
                 :iban, :bank, :bank_bic, :branch, :branch_bic, :faster_payments_supported, :chaps_supported,
                 :contact_address_line1, :contact_address_line2, :contact_post_town, :contact_postcode, :contact_phone, :contact_fax
     attr_reader :error, :error_code, :error_message, :description, :cause, :resolution
